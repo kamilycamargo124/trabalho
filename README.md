@@ -17,6 +17,7 @@ Desenvolver colaborativamente um algoritmo em Portugol que imite uma calculadora
 - Criei o repositório pelo GitHub, com o arquivo README inicial
 - Configurei o git criando uma chave SSH, e adicionando a chave pública nas configurações da minha conta no GitHub
 - Criei o arquivo `algoritmo.por` com o código inicial
+- Após rodar o comando `git pull` e pegar as últimas alterações, eu mudei o algoritmo para aceitar inputs vindo do terminal
 
 ### Carlos Henrique Botelho
 
@@ -55,6 +56,14 @@ git pull
 git add -A
 
 git commit -m "initial version"
+
+git push
+
+git pull
+
+git add -A
+
+git commit -m "add ability to use values from input"
 
 git push
 ```

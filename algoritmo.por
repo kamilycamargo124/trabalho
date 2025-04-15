@@ -27,8 +27,17 @@ programa {
   }
 
   funcao inicio() {
-    soma(10, 15)
-    multiplicar(10, 15)
-    subtrair(15, 10)
+    inteiro a
+    inteiro b
+
+    leia(a)
+    leia(b)
+
+    escreva ("\n")
+    escreva ("Resposta:\n")
+
+    soma(a, b)
+    multiplicar(a, b)
+    subtrair(a, b)
   }
 }
