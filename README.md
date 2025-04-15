@@ -24,6 +24,7 @@ Desenvolver colaborativamente um algoritmo em Portugol que imite uma calculadora
 - Clonei o repositório com o comando `git clone git@github.com:kamilycamargo124/trabalho.git`
 - Dei o pull usando o comando `git pull`
 - Adicionei a função para somar dois números no arquivo `algoritmo.por`
+- Depois de dar pull com as alterações já feitas pelos colegas, adicionei a função de subtração no arquivo `algoritmo.por`
 
 ### Felipe Ribeiro Pelisson
 
@@ -76,6 +77,14 @@ git pull
 git add -A
 
 git commit -m "add sum function"
+
+git push
+
+git pull
+
+git add -A
+
+git commit -m "add subtraction function"
 
 git push
 ```
