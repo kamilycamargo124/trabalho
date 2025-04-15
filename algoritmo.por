@@ -4,15 +4,17 @@ programa {
 
     res = a * b
 
+    escreva ("Multiplicação: ")
     escreva (res)
     escreva ("\n")
   }
 
-  funcao soma(inteiro a, inteiro b) {
+  funcao somar(inteiro a, inteiro b) {
     inteiro res
 
     res = a + b
 
+    escreva ("Soma: ")
     escreva (res)
     escreva ("\n")
   }
@@ -22,6 +24,7 @@ programa {
 
     res = a - b
 
+    escreva ("Subtração: ")
     escreva (res)
     escreva ("\n")
   }
@@ -31,6 +34,7 @@ programa {
 
     res = a / b
 
+    escreva ("Divisão: ")
     escreva (res)
     escreva ("\n")
   }
@@ -39,13 +43,15 @@ programa {
     inteiro a
     inteiro b
 
+    escreva ("Digite o primeiro número: ")
     leia(a)
+    escreva ("Digite o segundo número: ")
     leia(b)
 
     escreva ("\n")
-    escreva ("Resposta:\n")
+    escreva ("Respostas:\n")
 
-    soma(a, b)
+    somar(a, b)
     multiplicar(a, b)
     subtrair(a, b)
     dividir(a, b)
