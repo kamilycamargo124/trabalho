@@ -1,5 +1,13 @@
 programa {
+  funcao soma(inteiro a, inteiro b) {
+    inteiro res
+
+    res = a + b
+
+    escreva (res)
+  }
+
   funcao inicio() {
-    escreva ("Olá Mundo!")
+    soma(10, 15)
   }
 }
