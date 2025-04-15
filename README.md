@@ -25,6 +25,13 @@ Desenvolver colaborativamente um algoritmo em Portugol que imite uma calculadora
 - Dei o pull usando o comando `git pull`
 - Adicionei a função para somar dois números no arquivo `algoritmo.por`
 
+### Felipe Ribeiro Pelisson
+
+- Gerei uma chave SSH, e copiei o conteúdo dela e adicionei nas configurações da minha conta do GitHub
+- Clonei o repositório com o comando `git clone git@github.com:kamilycamargo124/trabalho.git`
+- Dei o pull usando o comando `git pull`
+- Adicionei a função para multiplicar dois números no arquivo `algoritmo.por`
+
 ## Comandos utilizados
 
 Todos os comandos foram executados via terminal utilizando chave SSH:
@@ -69,6 +76,28 @@ git pull
 git add -A
 
 git commit -m "add sum function"
+
+git push
+```
+
+### Comandos de Felipe Ribeiro Pelisson
+
+```
+ssh-keygen -t ed25519 -C "feliperpelisson@gmail.com"
+
+git config --global user.email "feliperpelisson@gmail.com"
+
+git config --global user.name "Felipe"
+
+git clone git@github.com:kamilycamargo124/trabalho.git
+
+cd trabalho
+
+git pull
+
+git add -A
+
+git commit -m "add multiply function"
 
 git push
 ```
