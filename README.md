@@ -33,6 +33,8 @@ Desenvolver colaborativamente um algoritmo em Portugol que imite uma calculadora
 - Clonei o repositório com o comando `git clone git@github.com:kamilycamargo124/trabalho.git`
 - Dei o pull usando o comando `git pull`
 - Adicionei a função para multiplicar dois números no arquivo `algoritmo.por`
+- Dei o pull mais uma vez utilizando o comando `git pull`
+- Adicionei mais uma função que divide um número pelo outro
 
 ## Comandos utilizados
 
@@ -116,6 +118,14 @@ git pull
 git add -A
 
 git commit -m "add multiply function"
+
+git push
+
+git pull
+
+git add -A
+
+git commit -m "add division function"
 
 git push
 ```

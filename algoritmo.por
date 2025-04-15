@@ -26,6 +26,15 @@ programa {
     escreva ("\n")
   }
 
+  funcao dividir(inteiro a, inteiro b) {
+    inteiro res
+
+    res = a / b
+
+    escreva (res)
+    escreva ("\n")
+  }
+
   funcao inicio() {
     inteiro a
     inteiro b
@@ -39,5 +48,6 @@ programa {
     soma(a, b)
     multiplicar(a, b)
     subtrair(a, b)
+    dividir(a, b)
   }
 }
